@@ -127,7 +127,7 @@ resource "aws_instance" "web-1" {
 # packer build -var=aws_access_key=AAAAAAAAAAAAAAAAAA -var=aws_secret_key=BBBBBBBBBBBBB packer.json
 #packer validate --var-file creds.json packer.json
 #packer build --var-file creds.json packer.json
-#packer.exe build --var-file creds.json -var=aws_access_key=AAAAAAAAAAAAAAAAAA -var=aws_secret_key=BBBBBBBBBBBBB packer.json
+#packer build --var-file creds.json -var=aws_access_key=AAAAAAAAAAAAAAAAAA -var=aws_secret_key=BBBBBBBBBBBBB packer.json
 # echo "+++++++++++++++++++++++++++++++++++++++++++++++++++++"
 # echo "Running Terraform Now...!!"
 # terraform init
